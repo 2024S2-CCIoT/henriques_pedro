@@ -4,7 +4,7 @@ Este repositório referente à pesquisa sobre Arquitetura de Sistemas IoT e Clou
 # Regras
 Cada aluno deverá submeter as atualizações do seu trabalho semanalmente. Assim, torna-se possível avaliar a evolução, avaliar e contribuir com o resultado.
 
-Como 1a tarefa, cada aluno deverá clonar o conteúdo do repositório em sua máquina, criar uma pasta no  formato *Primeironome_Ultimonome*. Dentro desta pasta, criar um arquivo texto chamado **readme.md**. Em seguida, cada aluno deverá descrever:
+Como 1a tarefa, cada aluno deverá clonar o conteúdo do repositório em sua máquina, criar uma pasta no  formato *Ultimonome_Primeironome*. Dentro desta pasta, criar um arquivo texto chamado **readme.md**. Em seguida, cada aluno deverá descrever:
 
  1. O tema do trabalho
  2. Um esboço da sua estrutura
