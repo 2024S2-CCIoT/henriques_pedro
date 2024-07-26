@@ -11,7 +11,7 @@ Como 1a tarefa, cada aluno deverá clonar o conteúdo do repositório em sua má
  3. Um plano de desenvolvimento do trabalho, contendo as datas em que cada item da estrutura do trabalho será desenvolvida.
  
 
-O trabalho é individual e Tema é de livre escolha (dentro do contexto da disciplina) que deve ser validado com o Professor. Como ajudá-los e dar alguma inspiração, seguem aqui 15 temas de trabalhos de pesquisa:
+O trabalho é individual e o tema é de livre escolha dentro do contexto da disciplina.  O tema escolhido deve ser validado com o Professor. Para aguçar a sua inspiração, seguem aqui 15 temas possíveis de trabalhos de pesquisa:
 
 1. **Fundamentos de Computação em Nuvem para Automação Industrial**: Estudo dos princípios básicos da computação em nuvem e sua aplicação na automação de processos industriais.
 
