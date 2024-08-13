@@ -67,5 +67,50 @@ Apesar dos benefícios, a implementação dessas tecnologias pode exigir investi
 5.3. Gestão da Mudança
 A adoção dessas tecnologias requer uma mudança cultural dentro da organização, com a necessidade de treinamento e adaptação dos colaboradores aos novos sistemas e processos.
 
+========================================
+
+Esboço da Estrutura do Trabalho
+Introdução
+
+Contextualização sobre a transformação digital na indústria automotiva.
+A importância de sistemas de assistência ao motorista, como câmeras de estacionamento.
+Objetivos do trabalho.
+Conceitos Básicos
+
+
+
+Big Data
+Internet das Coisas (IoT)
+Computação em Nuvem
+Integração de Big Data, IoT e Nuvem no Desenvolvimento de Câmeras de Estacionamento
+
+Coleta e Transmissão de Dados
+Análise de Dados em Tempo Real
+Automação e Controle de Manobras
+Benefícios da Utilização de Big Data e IoT na Otimização de Sistemas de Estacionamento
+
+Redução de Acidentes e Avarias
+Melhoria na Eficiência de Estacionamento
+Aumento da Satisfação do Usuário
+Estudos de Caso
+
+Análise de Implementações Atuais em Veículos Comerciais
+Comparação com Sistemas Tradicionais de Estacionamento
+Desafios e Considerações
+
+Segurança da Informação em Sistemas de Veículos Conectados
+Custos de Implementação e Adoção
+Impactos na Manutenção de Veículos
 Conclusão
-A integração de Big Data, IoT e serviços de nuvem na indústria oferece inúmeras oportunidades para a otimização de processos. Embora existam desafios, os benefícios em termos de redução de custos, aumento da eficiência e melhoria na qualidade são substanciais, tornando essa combinação uma tendência cada vez mais presente no cenário industrial.
+
+Resumo dos principais benefícios e desafios.
+Potencial de evolução e futuras aplicações do sistema.
+Plano de Desenvolvimento
+Semana 1-2: Pesquisa sobre Big Data, IoT e Computação em Nuvem no contexto automotivo.
+Semana 3-4: Desenvolvimento do capítulo sobre conceitos básicos.
+Semana 5-6: Análise de como Big Data, IoT e Nuvem podem ser integrados no desenvolvimento de câmeras de estacionamento.
+Semana 7-8: Pesquisa e redação sobre os benefícios de utilizar essas tecnologias.
+Semana 9-10: Estudos de caso e comparação com sistemas tradicionais.
+Semana 11-12: Identificação e análise de desafios e considerações.
+Semana 13-14: Revisão final e escrita da conclusão.
+
