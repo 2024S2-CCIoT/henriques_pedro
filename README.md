@@ -69,6 +69,3 @@ A adoção dessas tecnologias requer uma mudança cultural dentro da organizaç�
 
 Conclusão
 A integração de Big Data, IoT e serviços de nuvem na indústria oferece inúmeras oportunidades para a otimização de processos. Embora existam desafios, os benefícios em termos de redução de custos, aumento da eficiência e melhoria na qualidade são substanciais, tornando essa combinação uma tendência cada vez mais presente no cenário industrial.
-
-Referências
-A ser completado com fontes específicas sobre o tema.
