@@ -14,6 +14,8 @@ Como 1a tarefa, cada aluno deverá clonar o conteúdo do repositório em sua má
 
 O trabalho é individual e o tema é de livre escolha dentro do contexto da disciplina.  O tema escolhido deve ser validado com o Professor. Para aguçar a sua inspiração, seguem aqui 15 temas possíveis de trabalhos de pesquisa:
 
+Projeto: Criar inicialmente uma câmera de estacionar com software de detecção de espaço, evoluir para uma câmera de controle do carro e segurança na hora de batidas, ou por exemplo quando for um uber para caso tiver um problema com cliente.
+
 Começando trabalho 
 
 Trabalho: Big Data e IoT na Nuvem para Otimização de Processos Industriais
