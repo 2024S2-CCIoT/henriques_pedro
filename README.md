@@ -67,7 +67,12 @@ Reflexão sobre as lições aprendidas durante o projeto.
 Referências: 
 
 https://github.com/LucasM-coding/Estacionamento-Inteligente
+
+
 https://github.com/leoleite13k/smartParking-back
+
+
 https://github.com/nicolasrls/EstacionamentoRFID
 
 
+https://github.com/SoftServeInc/smartparking
