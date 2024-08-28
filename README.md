@@ -1,4 +1,4 @@
-# T1 - ARTIGO DO PROJETO - https://docs.google.com/document/d/1wKIEyj2KZAM3gqkwvASHiNznBAl2cyzAxVe8TxtqVc0/edit?usp=sharing
+# T1 - RELATÓRIO DO PROJETO - https://docs.google.com/document/d/1wKIEyj2KZAM3gqkwvASHiNznBAl2cyzAxVe8TxtqVc0/edit?usp=sharing
 
 Este repositório referente à pesquisa sobre  **Big Data e IoT na Nuvem para Otimização de Processos*: Como a combinação de IoT e Big Data pode ser utilizada para otimizar qualquer processo utilizando serviços de nuvem.
 
