@@ -1,0 +1,61 @@
+Câmera de estacionamento inteligente
+Smart parking camera
+
+
+Pedro Delgado Henriques
+Mauricio Noris Freire
+8° Período – Engenharia de Software - UniSenai 
+
+
+
+RESUMO: Estacionar o carro nas grandes metrópoles tem se tornado uma tarefa cada vez mais difícil, devido ao aumento do número de carros nas ruas, principalmente nos horários de pico (IBGE, 2017). O objetivo deste artigo é apresentar a solução desenvolvida para a problemática relacionada à otimização de processos por meio da combinação de IoT e Big Data, utilizando serviços de nuvem. O projeto inicial consiste no desenvolvimento de uma câmera de estacionamento equipada com um software de detecção de espaço, visando otimizar o uso de vagas de estacionamento em tempo real. A problemática abordada envolve a ineficiência no uso de espaços de estacionamento, que pode ser resolvida com a coleta e análise de dados em tempo real utilizando sensores de detecção de espaço para proporcionar via software de câmera digital um estacionamento sem maiores problemas. Para implementar essa solução, foi utilizada uma câmera de estacionamento inteligente, combinada com sensores IoT para a coleta de dados e uma rede neural convolucional (CNN) para a análise das imagens. Os dados coletados são processados em plataformas de nuvem, como AWS ou Google Cloud, permitindo uma análise em larga escala e em tempo real. Com isso, o sistema pode sugerir automaticamente vagas disponíveis e otimizar o fluxo de veículos, reduzindo o tempo de busca e aumentando a eficiência.
+
+ 
+
+Palavras-chave: Palavras-chave: IoT; Big Data; serviços de nuvem; otimização de processos; detecção de espaço; câmera de estacionamento; rede neural convolucional; CNN.
+
+
+INTRODUÇÃO “MÃOS NA MASSA”
+
+A dificuldade em encontrar vagas em estacionamentos, tanto públicos quanto privados, se tornou um problema global. Isso impacta a experiência do cliente, já que o estacionamento é muitas vezes o primeiro contato com a empresa. Quando há um grande volume de carros chegando simultaneamente, o processo de entrada pode ser lento, pois a taxa de chegada acaba sendo maior que a de saída, gerando longas filas.
+Pesquisas indicam que sistemas de gerenciamento de vagas em tempo real podem diminuir o tempo de procura e de espera em até 24,7%, além de reduzir o número de veículos aguardando em fila em 21%. Métodos tradicionais, como funcionários que estacionam os carros, não são tão seguros, e soluções mais modernas, como robôs autônomos, apresentam um alto custo de implementação.
+Em um estudo de caso de um shopping em Divinópolis-MG, foi observado que a equipe de três funcionários controla a entrada e saída de veículos, além de cuidar do pagamento, mas durante períodos de alta demanda, formam-se filas, já que é necessário checar manualmente as vagas disponíveis. 
+O estudo propõe uma solução de baixo custo e fácil uso para otimizar o processo de entrada de veículos, evitando a necessidade de verificações manuais.
+ 	Atualmente, alguns carros mais sofisticados possuem o sistema de estacionamento, enquanto alguns outros não têm acesso à uma câmera sem ser comprando manualmente, não obtendo qualquer tipo de padronização, pode-se implementar um sistema padrão, onde o motorista médio, ou a pessoa que tem medo de estacionar ou de realizar o processo nomeado como “baliza”, possa ter a oportunidade de enfrentar esse medo e estacionar da melhor maneira possível em qualquer marca de carro obtida pelo mesmo. 
+
+2. Metodologia
+2.1 Processo de Pesquisa
+
+Para integrar as tecnologias de Big Data e IoT na nuvem com uma câmera simples de estacionamento universal, propomos a seguinte abordagem. Primeiro, sensores de proximidade ou ultrassônicos serão instalados ao redor da vaga e do veículo para medir distâncias e detectar obstáculos. Estes sensores serão combinados com uma câmera simples capaz de capturar imagens do espaço de estacionamento. Ambas as tecnologias serão conectadas a um módulo de transmissão para enviar dados em tempo real para uma plataforma de nuvem.
+Integração com a Nuvem
+A integração com a nuvem é fundamental para a otimização dos processos de estacionamento. Utilizando plataformas como AWS, Google Cloud ou Microsoft Azure, os dados dos sensores e das câmaras serão armazenados e processados. O processamento na nuvem permitirá o uso de ferramentas de Big Data para analisar grandes volumes de dados, identificar padrões de ocupação e prever picos de demanda. Além disso, algoritmos de aprendizado de máquina poderão ser implementados para aprimorar a precisão das recomendações e a gestão das vagas.
+Análise e Resultados
+O processamento dos dados em tempo real permitirá a visualização imediata das vagas disponíveis e a oferta de orientações precisas para o estacionamento. A análise das imagens e dados dos sensores contribuirá para a criação de um aplicativo móvel que fornecerá aos motoristas informações detalhadas sobre a ocupação das vagas e orientações para o estacionamento. A interface do usuário incluirá alertas visuais e sonoros para auxiliar na entrada precisa na vaga, com base nas informações dos sensores e na análise dos dados.
+2.2 Integração 
+A crescente demanda por soluções inteligentes para otimização de vagas de estacionamento tem incentivado o desenvolvimento de tecnologias que integram Big Data e IoT (Internet das Coisas). Neste artigo, propomos uma solução simples que utiliza uma câmera universal de estacionamento combinada com sensores ultrassônicos, capaz de transmitir dados em tempo real para uma plataforma na nuvem. O objetivo é criar um sistema eficiente, acessível e escalável para melhorar a gestão de vagas e proporcionar uma experiência mais fluida para os usuários.
+Câmera de Estacionamento
+
+https://docs.google.com/document/d/1U1X17s3qMt0yq_Df_zyRFBg8YHgK3CfdiDKoxcakjW4/edit#heading=h.k1ly5ie9s110
+
+gerada por I.A 
+A câmera desempenha um papel central na captação de imagens em tempo real do espaço de estacionamento. Para este projeto, recomendamos o uso de uma câmera CMOS de baixa complexidade, com resolução HD (720p ou superior). Essa configuração é suficiente para capturar imagens claras em diferentes condições de iluminação, garantindo que o sistema consiga analisar com precisão a ocupação das vagas.
+Uma câmera com um campo de visão de 120 a 180 graus é ideal, pois cobre amplamente a área da vaga, capturando tanto o veículo quanto os arredores. Além disso, a câmera deve possuir conectividade Wi-Fi ou LoRaWAN, permitindo a transmissão de imagens diretamente para a plataforma de nuvem em tempo real. Em termos de processamento de dados, o uso de algoritmos de visão computacional (seja embarcado na própria câmera ou na nuvem) pode ajudar a identificar obstáculos e a calcular a disponibilidade de vagas com base nas imagens capturadas.
+Sensores de Proximidade
+Além da câmera, a utilização de sensores ultrassônicos complementa a precisão na detecção de obstáculos e veículos próximos. Sensores como o HC-SR04 são uma opção de baixo custo e alta eficiência, capazes de medir distâncias entre 2 cm e 4 metros. Esses sensores serão instalados ao redor das vagas para medir a distância entre o veículo e os obstáculos, proporcionando dados precisos sobre a ocupação e facilitando o estacionamento seguro.
+Cada sensor será conectado a um microcontrolador, como o ESP32, que processará as medições em tempo real e enviará os dados à nuvem. Esses sensores, por serem simples e eficientes, são altamente confiáveis para detectar obstáculos tanto em áreas abertas quanto em ambientes fechados, como garagens.
+Módulo de Comunicação
+Para a transmissão de dados em tempo real, é essencial integrar um módulo de comunicação eficiente. A escolha entre Wi-Fi ou LoRaWAN dependerá da infraestrutura disponível. Em áreas urbanas com alta densidade de rede, o Wi-Fi pode ser suficiente, permitindo uma transmissão rápida e estável. No entanto, em locais onde o alcance é mais importante que a velocidade de conexão, LoRaWAN pode ser a solução ideal, oferecendo comunicação de longo alcance com baixo consumo de energia.
+Esse módulo de comunicação será responsável por transmitir tanto as imagens capturadas pela câmera quanto os dados dos sensores ultrassônicos para a plataforma na nuvem, garantindo que o sistema funcione de forma integrada e em tempo real.
+
+https://docs.google.com/document/d/1U1X17s3qMt0yq_Df_zyRFBg8YHgK3CfdiDKoxcakjW4/edit#heading=h.reniknskirmu
+
+gerada por I.A 
+A câmera desempenha um papel de captação de imagens em tempo real do espaço de estacionamento. Para este projeto, é recomendado o uso de uma câmera CMOS de baixa complexidade, com resolução HD (720p ou superior). Essa configuração é suficiente para capturar imagens claras em diferentes condições de iluminação, garantindo que o sistema consiga analisar com precisão a ocupação das vagas.
+Uma câmera com um campo de visão de 120 a 180 graus é ideal, pois cobre amplamente a área da vaga, capturando tanto o veículo quanto os arredores. Além disso, a câmera deve possuir conectividade Wi-Fi ou LoRaWAN, permitindo a transmissão de imagens diretamente para a plataforma de nuvem em tempo real. Em termos de processamento de dados, o uso de algoritmos de visão computacional (seja embarcado na própria câmera ou na nuvem) pode ajudar a identificar obstáculos e a calcular a disponibilidade de vagas com base nas imagens capturadas.
+Sensores de Proximidade
+Além da câmera, a utilização de sensores ultrassônicos complementa a precisão na detecção de obstáculos e veículos próximos. Sensores como o HC-SR04 são uma opção de baixo custo e alta eficiência, capazes de medir distâncias entre 2 cm e 4 metros. Estes sensores serão instalados ao redor das vagas para medir a distância entre o veículo e os obstáculos, proporcionando dados precisos sobre a ocupação e facilitando o estacionamento seguro.
+Cada sensor será conectado a um microcontrolador, como o ESP32, que processará as medições em tempo real e enviará os dados à nuvem. Esses sensores, por serem simples e eficientes, são altamente confiáveis para detectar obstáculos tanto em áreas abertas quanto em ambientes fechados, como garagens.
+Módulo de Comunicação
+Para a transmissão de dados em tempo real, é essencial integrar um módulo de comunicação eficiente. A escolha entre Wi-Fi ou LoRaWAN dependerá da infraestrutura disponível. Em áreas urbanas com alta densidade de rede, o Wi-Fi pode ser suficiente, permitindo uma transmissão rápida e estável. No entanto, em locais onde o alcance é mais importante que a velocidade de conexão, LoRaWAN pode ser a solução ideal, oferecendo comunicação de longo alcance com baixo consumo de energia.
+Esse módulo de comunicação será responsável por transmitir tanto as imagens capturadas pela câmera quanto os dados dos sensores ultrassônicos para a plataforma na nuvem, garantindo que o sistema funcione de forma integrada e em tempo real.
+
