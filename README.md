@@ -40,6 +40,10 @@ Coleta de Dados de Relatório e formalização (21/08 - 03/09):
 
 Pesquisa e coleta das informações dos principais provedores de nuvem.
 Reunir dados de projetos anteriores.
+Comparativo com revista cientifica ou um que existe
+Colocar mais referencias
+Engatar a re processo para ligar camera nova automata
+Documento com copia de artigo para acompanhar processo
 Análise e Comparação de projetos (04/09 - 24/09):
 
 Reunião de conteúdos coletados, objetivamente o desempenho, disponibilidade e suporte.
