@@ -59,3 +59,27 @@ Módulo de Comunicação
 Para a transmissão de dados em tempo real, é essencial integrar um módulo de comunicação eficiente. A escolha entre Wi-Fi ou LoRaWAN dependerá da infraestrutura disponível. Em áreas urbanas com alta densidade de rede, o Wi-Fi pode ser suficiente, permitindo uma transmissão rápida e estável. No entanto, em locais onde o alcance é mais importante que a velocidade de conexão, LoRaWAN pode ser a solução ideal, oferecendo comunicação de longo alcance com baixo consumo de energia.
 Esse módulo de comunicação será responsável por transmitir tanto as imagens capturadas pela câmera quanto os dados dos sensores ultrassônicos para a plataforma na nuvem, garantindo que o sistema funcione de forma integrada e em tempo real.
 
+
+Diagrama de câmera estacionamento inteligente
+
+diagrama miro
+2.2.1.1 Ativação Automática da Câmera de Ré
+Sensor de Engate de Ré
+O processo começa com a instalação de um sensor de engate de ré. Esse sensor é integrado à transmissão do veículo e detecta automaticamente quando o motorista engata a marcha ré. A partir do momento em que o veículo é colocado nessa marcha, o sensor envia um sinal para a unidade de controle eletrônica (ECU), que gerencia diversas funções automotivas.
+O sensor de engate de ré pode ser um sensor de posição ou um interruptor simples instalado diretamente na alavanca de câmbio ou na caixa de transmissão. Assim que a ECU recebe o sinal, ela aciona imediatamente a câmera de ré, garantindo que a imagem seja exibida no painel do carro sem qualquer atraso.
+Câmera de Estacionamento Inteligente
+A câmera de estacionamento utilizada no sistema deve ser uma câmera CMOS HD, posicionada estrategicamente na parte traseira do veículo, com um campo de visão amplo, geralmente entre 120° e 180°, para cobrir toda a área atrás do carro. A câmera é conectada ao sistema de entretenimento ou ao painel do carro, onde as imagens são exibidas em uma tela digital.
+Além de capturar imagens em tempo real, a câmera pode ser equipada com algoritmos de processamento de imagem. Esses algoritmos podem identificar obstáculos, pedestres ou outros veículos, fornecendo informações adicionais na forma de sobreposições gráficas na tela, como linhas-guia e zonas de segurança codificadas por cores (verde, amarelo e vermelho).
+Ativação Automática
+Quando o motorista engata a marcha ré, o sensor de engate envia o sinal para a ECU, que automaticamente ativa a câmera. Em questão de segundos, a imagem da câmera aparece na tela do veículo, proporcionando ao motorista uma visão clara da área traseira. Simultaneamente, os sensores de proximidade instalados no para-choque traseiro podem fornecer feedback auditivo ou visual adicional, alertando sobre obstáculos muito próximos.
+Esse processo de ativação é totalmente automático, não exigindo nenhuma intervenção manual do motorista. A câmera desliga automaticamente assim que o veículo é retirado da marcha ré, economizando energia e liberando a tela para outras funções.
+Integração com Assistência Visual
+Uma das inovações mais úteis deste sistema é a integração com assistentes visuais. Além de exibir as imagens da câmera, o sistema pode utilizar inteligência artificial (IA) para fornecer assistência visual ao motorista. Isso inclui a exibição de linhas-guia dinâmicas, que ajustam conforme o ângulo de direção do veículo, ajudando o motorista a estacionar com maior precisão.
+Além disso, a câmera pode mostrar alertas visuais em diferentes cores, com áreas verdes indicando espaço suficiente para manobrar, amarelo alertando para áreas próximas a obstáculos, e vermelho indicando a necessidade de cautela extrema.
+
+
+
+
+
+
+
