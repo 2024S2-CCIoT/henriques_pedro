@@ -44,11 +44,11 @@ Comparativo com revista cientifica ou um que existe
 Colocar mais referencias
 Engatar a re processo para ligar camera nova automata
 Documento com copia de artigo para acompanhar processo
-Análise e Comparação de projetos (04/09 - 24/09):
+Análise e Comparação de projetos (04/09 - 27/09):
 
 Reunião de conteúdos coletados, objetivamente o desempenho, disponibilidade e suporte.
 Identificação de melhor serviço de câmera e nuvem.
-Fundamentação do relatório completa (25/09 - 15/10):
+Fundamentação do relatório completa (28/09 - 15/10):
 
 Finalização dos resultados e criação de um relatório detalhado.
 Discussão das implicações das descobertas para aplicações IoT e BigData.
