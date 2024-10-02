@@ -8,11 +8,17 @@ Mauricio Noris Freire
 
 
 
+
+
 RESUMO: Estacionar o carro nas grandes metrópoles tem se tornado uma tarefa cada vez mais difícil, devido ao aumento do número de carros nas ruas, principalmente nos horários de pico (IBGE, 2017). O objetivo deste artigo é apresentar a solução desenvolvida para a problemática relacionada à otimização de processos por meio da combinação de IoT e Big Data, utilizando serviços de nuvem. O projeto inicial consiste no desenvolvimento de uma câmera de estacionamento equipada com um software de detecção de espaço, visando otimizar o uso de vagas de estacionamento em tempo real. A problemática abordada envolve a ineficiência no uso de espaços de estacionamento, que pode ser resolvida com a coleta e análise de dados em tempo real utilizando sensores de detecção de espaço para proporcionar via software de câmera digital um estacionamento sem maiores problemas. Para implementar essa solução, foi utilizada uma câmera de estacionamento inteligente, combinada com sensores IoT para a coleta de dados e uma rede neural convolucional (CNN) para a análise das imagens. Os dados coletados são processados em plataformas de nuvem, como AWS ou Google Cloud, permitindo uma análise em larga escala e em tempo real. Com isso, o sistema pode sugerir automaticamente vagas disponíveis e otimizar o fluxo de veículos, reduzindo o tempo de busca e aumentando a eficiência.
 
  
 
 Palavras-chave: Palavras-chave: IoT; Big Data; serviços de nuvem; otimização de processos; detecção de espaço; câmera de estacionamento; rede neural convolucional; CNN.
+
+
+
+
 
 
 INTRODUÇÃO “MÃOS NA MASSA”
@@ -33,21 +39,14 @@ Análise e Resultados
 O processamento dos dados em tempo real permitirá a visualização imediata das vagas disponíveis e a oferta de orientações precisas para o estacionamento. A análise das imagens e dados dos sensores contribuirá para a criação de um aplicativo móvel que fornecerá aos motoristas informações detalhadas sobre a ocupação das vagas e orientações para o estacionamento. A interface do usuário incluirá alertas visuais e sonoros para auxiliar na entrada precisa na vaga, com base nas informações dos sensores e na análise dos dados.
 2.2 Integração 
 A crescente demanda por soluções inteligentes para otimização de vagas de estacionamento tem incentivado o desenvolvimento de tecnologias que integram Big Data e IoT (Internet das Coisas). Neste artigo, propomos uma solução simples que utiliza uma câmera universal de estacionamento combinada com sensores ultrassônicos, capaz de transmitir dados em tempo real para uma plataforma na nuvem. O objetivo é criar um sistema eficiente, acessível e escalável para melhorar a gestão de vagas e proporcionar uma experiência mais fluida para os usuários.
-Câmera de Estacionamento
 
-https://docs.google.com/document/d/1U1X17s3qMt0yq_Df_zyRFBg8YHgK3CfdiDKoxcakjW4/edit#heading=h.k1ly5ie9s110
 
-gerada por I.A 
-A câmera desempenha um papel central na captação de imagens em tempo real do espaço de estacionamento. Para este projeto, recomendamos o uso de uma câmera CMOS de baixa complexidade, com resolução HD (720p ou superior). Essa configuração é suficiente para capturar imagens claras em diferentes condições de iluminação, garantindo que o sistema consiga analisar com precisão a ocupação das vagas.
-Uma câmera com um campo de visão de 120 a 180 graus é ideal, pois cobre amplamente a área da vaga, capturando tanto o veículo quanto os arredores. Além disso, a câmera deve possuir conectividade Wi-Fi ou LoRaWAN, permitindo a transmissão de imagens diretamente para a plataforma de nuvem em tempo real. Em termos de processamento de dados, o uso de algoritmos de visão computacional (seja embarcado na própria câmera ou na nuvem) pode ajudar a identificar obstáculos e a calcular a disponibilidade de vagas com base nas imagens capturadas.
-Sensores de Proximidade
-Além da câmera, a utilização de sensores ultrassônicos complementa a precisão na detecção de obstáculos e veículos próximos. Sensores como o HC-SR04 são uma opção de baixo custo e alta eficiência, capazes de medir distâncias entre 2 cm e 4 metros. Esses sensores serão instalados ao redor das vagas para medir a distância entre o veículo e os obstáculos, proporcionando dados precisos sobre a ocupação e facilitando o estacionamento seguro.
-Cada sensor será conectado a um microcontrolador, como o ESP32, que processará as medições em tempo real e enviará os dados à nuvem. Esses sensores, por serem simples e eficientes, são altamente confiáveis para detectar obstáculos tanto em áreas abertas quanto em ambientes fechados, como garagens.
-Módulo de Comunicação
-Para a transmissão de dados em tempo real, é essencial integrar um módulo de comunicação eficiente. A escolha entre Wi-Fi ou LoRaWAN dependerá da infraestrutura disponível. Em áreas urbanas com alta densidade de rede, o Wi-Fi pode ser suficiente, permitindo uma transmissão rápida e estável. No entanto, em locais onde o alcance é mais importante que a velocidade de conexão, LoRaWAN pode ser a solução ideal, oferecendo comunicação de longo alcance com baixo consumo de energia.
-Esse módulo de comunicação será responsável por transmitir tanto as imagens capturadas pela câmera quanto os dados dos sensores ultrassônicos para a plataforma na nuvem, garantindo que o sistema funcione de forma integrada e em tempo real.
 
-https://docs.google.com/document/d/1U1X17s3qMt0yq_Df_zyRFBg8YHgK3CfdiDKoxcakjW4/edit#heading=h.reniknskirmu
+
+
+
+
+2.2.1 Câmera de Estacionamento
 
 gerada por I.A 
 A câmera desempenha um papel de captação de imagens em tempo real do espaço de estacionamento. Para este projeto, é recomendado o uso de uma câmera CMOS de baixa complexidade, com resolução HD (720p ou superior). Essa configuração é suficiente para capturar imagens claras em diferentes condições de iluminação, garantindo que o sistema consiga analisar com precisão a ocupação das vagas.
@@ -58,6 +57,9 @@ Cada sensor será conectado a um microcontrolador, como o ESP32, que processará
 Módulo de Comunicação
 Para a transmissão de dados em tempo real, é essencial integrar um módulo de comunicação eficiente. A escolha entre Wi-Fi ou LoRaWAN dependerá da infraestrutura disponível. Em áreas urbanas com alta densidade de rede, o Wi-Fi pode ser suficiente, permitindo uma transmissão rápida e estável. No entanto, em locais onde o alcance é mais importante que a velocidade de conexão, LoRaWAN pode ser a solução ideal, oferecendo comunicação de longo alcance com baixo consumo de energia.
 Esse módulo de comunicação será responsável por transmitir tanto as imagens capturadas pela câmera quanto os dados dos sensores ultrassônicos para a plataforma na nuvem, garantindo que o sistema funcione de forma integrada e em tempo real.
+
+
+
 
 
 Diagrama de câmera estacionamento inteligente
@@ -76,6 +78,147 @@ Esse processo de ativação é totalmente automático, não exigindo nenhuma int
 Integração com Assistência Visual
 Uma das inovações mais úteis deste sistema é a integração com assistentes visuais. Além de exibir as imagens da câmera, o sistema pode utilizar inteligência artificial (IA) para fornecer assistência visual ao motorista. Isso inclui a exibição de linhas-guia dinâmicas, que ajustam conforme o ângulo de direção do veículo, ajudando o motorista a estacionar com maior precisão.
 Além disso, a câmera pode mostrar alertas visuais em diferentes cores, com áreas verdes indicando espaço suficiente para manobrar, amarelo alertando para áreas próximas a obstáculos, e vermelho indicando a necessidade de cautela extrema.
+
+
+2.2.1 Identificação de Problemas
+A principal questão apresentada pela Renault foi o longo tempo necessário para a validação de desenhos técnicos 2D, que atualmente é de 21 semanas, bem como a quantidade de iterações no processo de validação. O objetivo foi investigar como a IA pode automatizar a validação, verificando a presença de marcações, símbolos e rótulos nos desenhos técnicos.
+2.2.2 Planejamento da Pesquisa
+Após a identificação do problema, a equipe de pesquisa delineou o tipo de modelo de ML/DL necessário, os dados e recursos requeridos. O objetivo era desenvolver um modelo de visão computacional que pudesse identificar e classificar padrões específicos nos desenhos técnicos, destacando-os como "corretos" ou "incorretos". O planejamento inicial incluiu um cronograma de execução, orçamento, marcos críticos e métricas de sucesso. A métrica de sucesso principal foi a redução do tempo médio de validação e o número de iterações necessárias.
+2.2.3 Coleta de Dados
+Os dados foram coletados a partir de projetos realizados pela Renault nos últimos 15 anos. Os engenheiros da empresa foram responsáveis pela coleta, pré-processamento e preparação dos conjuntos de dados de treinamento e teste. As imagens dos desenhos técnicos continham diversas informações, como prescrições gerais, geometria, materiais, regulamentação e segurança, informações da criação do desenho, título da peça, entre outras.
+2.2.4 Desenvolvimento da Solução
+A solução desenvolvida envolveu a criação de uma rede neural convolucional (CNN) para verificar a presença de marcações e outros requisitos nos desenhos técnicos. O desenvolvimento focou na seguinte questão de pesquisa: "Como automatizar a verificação manual dos desenhos técnicos 2D com a mesma ou maior qualidade que um especialista humano?" Para isso, foram utilizadas técnicas de visão computacional e reconhecimento de objetos.
+
+
+2.2.5 OBJETIVO DE Câmera de estacionamento inteligente 
+	
+
+3. FUNDAMENTAÇÃO TEÓRICA
+Para a criação da solução, foi optado, principalmente, pela utilização da visão computacional, juntamente com uma rede neural convolucional. A visão computacional: “é a construção de descrições explícitas e significativas de objetos físicos a partir de imagens. [1]”. Uma rede neural convolucional: “são arquiteturas biologicamente inspiradas capazes de serem treinadas e aprenderem representações invariantes a escala, translação, rotação e transformações afins. [2]”, portanto, utilizando dessas metodologias, será possível extrair informações das imagens dos desenhos, a fim de realizar as validações necessárias utilizando imagens de diversos desenhos e em diversos contextos. As imagens utilizadas, que foram providas pelos stakeholders do projeto, possuem várias informações, dentre elas, informações como: prescrições gerais, geometria, materiais, regulamentação e segurança, informações da criação do desenho, título da peça, dentre outros. 
+
+3.1 REDE NEURAL 
+No começo do desenvolvimento, foram rotuladas as imagens com suas devidas classes, utilizando o conceito de bounding-boxes, com o objetivo de discriminar as diversas partes importantes do desenho na imagem, como: o titleblock, a tabela com as informações de regulamentação e segurança. Com isso, é possível segregar os dados em: teste, treino e validação, com proporção de 70%, 15% e 15%, respectivamente, para posterior utilização no treinamento da rede neural.
+3.1.1 Teste com Dados Reais:
+Cenários de Validação: O modelo foi testado com desenhos técnicos reais de novos projetos para verificar sua capacidade de identificar erros e inconsistências.
+Métricas de Avaliação: As principais métricas de desempenho incluíram a precisão, recall, e a taxa de falsos positivos/negativos.
+
+3.2 MONITORAMENTO DO CIRCUITO DE ASSINATURAS
+
+O circuito de assinaturas é um componente de extrema importância no fluxo de validação dos desenhos técnicos, as assinaturas indicam que o desenho está em conformidade e pode seguir para a fabricação da peça, portanto, se faz necessário que as mesmas sejam monitoradas para a notificação dos stakeholders. O fluxo da solução desenvolvida, juntamente com a utilização da rede neural, foi idealizado da seguinte forma:
+1. Os stakeholders, adicionam o desenho ao sistema da empresa, cujo o mesmo, posteriormente, será inserido no banco de dados.
+2. O banco de dados possuirá um gatilho na tabela que contém os desenhos, que irá adicionar o registro do desenho em uma tabela intitulada, a priori, “atualizações”.
+3. O sistema de monitoramentos, irá realizar a consulta a cada determinado tempo por atualizações dos registros desta tabela, caso haja, o desenho será enviado à uma fila de espera onde haverá um balanceador de carga que é responsável pela administração do envio dos desenhos que estão na fila para a rede neural realizar as devidas validações.
+4. O sistema web, irá exibir o status da validação, desde a chegada do registro na fila de espera, até a validação.
+5. Após as validações, caso for reprovado, o registro será enviado para uma fila de reprovados, assim como no caso de aprovado. 
+6. O sistema web será atualizado com o resultado final da validação, e será auxiliado, a priori, por um revisor, que apontará se a validação está correta. 
+7. Baseado na decisão do revisor, a rede neural irá receber o feedback para melhorar ou continuar com o mesmo coeficiente de validação. 
+
+
+
+3.5 Arquitetura simplificada de estacionamento inteligente
+	
+     		   	imagem 2 - Fluxograma de projeto
+Descrição do Funcionamento
+Banco de Dados:
+O sistema começa com um banco de dados com as informações e dados necessários já treinados para o funcionamento da aplicação.
+Monitoramento:
+Uma “câmera” de monitoramento é inserida no automóvel e coleta dados visuais e envia essas informações para o banco de dados e para a IA ser aprimorada conforme vai estacionando.
+Inteligência Artificial (IA):
+A IA processa os dados recebidos, analisando as informações para tomar decisões. Baseado nas análises(Espaço requerido para estacionar ou não o carro, sendo dividido pela etapa de cores, indicando se pode continuar ou não o processo de estacionar conforme o espaço atual onde o carro se encontra), a IA classifica os resultados em três categorias: “Vermelho, Amarelo, Verde".
+Filas de Resultados:
+Os resultados da análise da IA são organizados em filas distintas: uma fila para indicar espaço e atualização em tempo real.
+Painel de Monitoramento:
+As informações sobre proximidade são então exibidas em um painel de monitoramento do carro. Esse painel oferece uma visualização das análises e resultados, permitindo que os usuários monitorem o status e a proximidade, evitando toque direto de veículo.
+
+Cronograma de Desenvolvimento
+Criação das Automações no Banco de Dados: Desenvolvimento e configuração das automações necessárias para o banco de dados, possibilitando a coleta e armazenamento eficientes de dados.
+
+Treinamento da Rede Neural: Treinamento da IA com dados específicos para que ela possa realizar análises precisas e fazer classificações corretas.
+
+Criação da Arquitetura e Infraestrutura do Sistema: Desenvolvimento da infraestrutura técnica que suportará a aplicação, incluindo servidores, redes e componentes de software.
+
+Criação do Painel de Monitoramento: Desenvolvimento do painel de monitoramento que exibirá as informações de forma visual e acessível.
+
+Criação do Sistema de Monitoramento de Atualizações: Implementação de um sistema que monitora e gerencia atualizações de espaço.
+
+Integração: Integração de todos os componentes desenvolvidos.
+
+Tempo Total de Desenvolvimento
+O tempo estimado para o desenvolvimento completo do sistema é de 3 meses.
+
+3.5.1 RESULTADOS OBTIDOS COM O PROJETO
+Ferramenta que realiza o monitoramento e promove direção segura ao lugar escolhido para estacionar.
+
+Computação em nuvem, sem instalações, acoplada diretamente
+no sistema já existente
+
+Tranquiliza a pessoa na hora de utilizar seu carro, fornecendo maior controle.
+
+4.  CONSIDERAÇÕES FINAIS 
+Contudo, este artigo apresenta uma proposta inovadora para proporcionar às pessoas de menor rendimento monetário ter uma segurança de estacionamento estável em seus carros por um valor abaixo do mercado atual, realocando features para uma câmera de estacionamento barata com um software adequado para tal feito. A implementação de uma ferramenta de IA baseada em CNN tem o potencial de reduzir significativamente o tempo e os recursos necessários para pessoas leigas que acabaram de tirar a carteira de motorista, sem muita prática, ou não exercem muito o manejo de direção diariamente não terem medo de estacionar seu carro, aumentando a eficiência, calmaria e precisão do processo.
+
+
+
+
+5. SUGESTÕES PARA TRABALHOS FUTUROS
+
+Para trabalhar com uma inteligência artificial (IA) que seja capaz de ler e dimensionar espaços reais de estacionamento diversos, como parques, ou o mais comum sendo uma rua convencional, alguns requisitos mínimos são necessários, tanto em termos de hardware quanto de software, além de habilidades e conhecimentos específicos. Abaixo estão os principais requisitos:
+
+Conseguir o mais rápido possível acesso à Servidores (para grandes volumes de dados e treinamento de IA): Considerar serviços de cloud computing como AWS, Google Cloud, ou Microsoft Azure, que oferecem recursos escaláveis para processamento intensivo de dados.
+
+Bibliotecas e Frameworks de IA:
+TensorFlow, Keras, Scikit-learn para construção e treinamento de modelos de IA.
+OpenCV para processamento de imagens.
+Dlib e Tesseract para tarefas relacionadas ao reconhecimento de formas e características geométricas.
+
+Requisitos de Dados
+Conjunto de Dados de Treinamento via ferramenta GoogleMaps, pois é a base para o começo dos testes reais,problemas reais que irão ser solucionados, e adequação do modelo aos dados. Grandes volumes de imagens etiquetados e anotados para treinar a IA, imagens de alta resolução de vias,Pré-processamento de Dados:
+Técnicas de limpeza e preparação de dados, incluindo normalização, rotação, e ajuste de escala dos desenhos técnicos.
+
+
+
+
+Requisitos de Conhecimento e Habilidades
+Leitura para maior conhecimento em IA e Machine Learning:
+Fundamentos de aprendizado de máquina e redes neurais.
+Experiência em construção e treinamento de modelos de visão computacional.
+Conhecimento em Processamento de Imagens:
+Técnicas de segmentação de imagens, detecção de bordas e reconhecimento de padrões.
+Conhecimento em Desenhos Técnicos:
+Compreensão dos padrões e normas dos desenhos técnicos automotivos.
+Habilidade para interpretar e manipular desenhos técnicos 2D.
+
+6. TRABALHOS SEMELHANTES
+6.1 
+
+
+
+
+
+
+
+
+
+
+
+
+REFERÊNCIAS BIBLIOGRÁFICAS
+
+Artigos anexados 
+
+https://tecnoblog.net/responde/o-que-e-sensor-cmos/
+
+https://canaltech.com.br/carros/toyota-corolla-fica-mais-equipado-em-2023-veja-o-que-muda-206493/
+
+https://canaltech.com.br/carros/toyota-safety-sense-conheca-o-pacote-de-seguranca-semiautonoma-do-corolla-206487/
+
+
+
+
+
+
+
+
 
 
 
