@@ -1,5 +1,5 @@
 # T1 - RELATÓRIO DO PROJETO - https://docs.google.com/document/d/1U1X17s3qMt0yq_Df_zyRFBg8YHgK3CfdiDKoxcakjW4/edit?usp=sharing
-Código do projeto: https://colab.research.google.com/drive/1LktSX3NR5Zr9fjkKKDLNd7-KmgwjpejP?usp=sharing 
+Código do projeto: inteligentcams.py
 
 
 Este repositório referente à pesquisa sobre  **Big Data e IoT na Nuvem para Otimização de Processos*: Como a combinação de IoT e Big Data pode ser utilizada para otimizar qualquer processo utilizando serviços de nuvem.
