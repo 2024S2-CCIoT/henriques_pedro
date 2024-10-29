@@ -1,6 +1,12 @@
 # T1 - RELATÓRIO DO PROJETO - https://docs.google.com/document/d/1U1X17s3qMt0yq_Df_zyRFBg8YHgK3CfdiDKoxcakjW4/edit?usp=sharing
 Código do projeto: inteligentcams.py
 
+![image](https://github.com/user-attachments/assets/7fbd232e-f163-4662-ae9d-143955a9bd75)
+
+![image](https://github.com/user-attachments/assets/94bfe942-ac99-48c4-9fe8-cf39b7f85557)
+
+![image](https://github.com/user-attachments/assets/9dcee20b-a815-45e5-a559-e44a7b67eb60)
+
 
 Este repositório referente à pesquisa sobre  **Big Data e IoT na Nuvem para Otimização de Processos*: Como a combinação de IoT e Big Data pode ser utilizada para otimizar qualquer processo utilizando serviços de nuvem.
 
@@ -79,6 +85,8 @@ https://github.com/leoleite13k/smartParking-back
 
 
 https://github.com/nicolasrls/EstacionamentoRFID
+
+
 
 
 https://github.com/SoftServeInc/smartparking
