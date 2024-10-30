@@ -188,15 +188,42 @@ Conhecimento em Desenhos Técnicos:
 Compreensão dos padrões e normas dos desenhos técnicos automotivos.
 Habilidade para interpretar e manipular desenhos técnicos 2D.
 
+
 6. TRABALHOS SEMELHANTES
-6.1 
+6.1 Toyota Safety Sense 
+O Toyota Safety Sense é um conjunto abrangente de tecnologias de segurança e assistência ao motorista desenvolvido pela Toyota. Ele é projetado para ajudar a prevenir acidentes e melhorar a segurança geral dos veículos. Abaixo estão os principais componentes e características do Toyota Safety Sense:
+Principais Componentes do Toyota Safety Sense
+Pré-Colisão com Detecção de Pedestres:
+Usa sensores e câmeras para detectar veículos e pedestres à frente. O sistema emite alertas ao motorista e pode aplicar os freios automaticamente se uma colisão for iminente.
+Controle de Cruzeiro Adaptativo (Dynamic Radar Cruise Control):
+Mantém uma distância segura em relação ao veículo à frente, ajustando a velocidade automaticamente. Se o veículo à frente desacelerar, o sistema reduz a velocidade do Toyota e, quando a estrada estiver livre, acelera novamente.
+Assistente de Manutenção de Faixa (Lane Departure Alert):
+Detecta as faixas de rodagem e alerta o motorista se o veículo começar a sair da faixa sem sinalização. Alguns modelos têm um recurso adicional que pode fornecer assistência para corrigir a trajetória.
+Sistema de Luz Alta Automática:
+Ajusta automaticamente os faróis entre luz alta e baixa, dependendo das condições de tráfego, para não ofuscar outros motoristas.
+Câmera de Visão Traseira com Linhas-Guia Dinâmicas:
+A câmera de ré fornece uma visão clara da área atrás do veículo, com linhas-guia que se ajustam conforme o ângulo de direção do volante, ajudando em manobras de estacionamento.
+Monitoramento de Ponto Cego e Alerta de Tráfego Cruzado Traseiro (em modelos mais avançados):
+Sensores que monitoram áreas ao redor do veículo, alertando o motorista sobre veículos em pontos cegos ou tráfego que se aproxima de trás ao sair de uma vaga.
+Benefícios do Toyota Safety Sense
+Aumento da Segurança: As tecnologias visam reduzir o número de acidentes, protegendo tanto os ocupantes do veículo quanto pedestres.
+Conveniência: O controle de cruzeiro adaptativo e as assistências de faixa tornam a condução mais confortável, especialmente em viagens longas.
+Tecnologia Integrada: Funciona em conjunto com outros sistemas do veículo, proporcionando uma experiência de direção mais intuitiva e segura.
+Disponibilidade
+O Toyota Safety Sense está disponível em muitos modelos da Toyota, desde sedãs até SUVs e caminhonetes, e a empresa tem trabalhado para torná-lo um recurso padrão em uma ampla gama de veículos.
+
+Aplicação do Projeto 
+	Ao concluir o projeto podemos observar os estados de detecção conforme vai chegando perto, foram feitos testes com um participante físico chamado Pedrão Delgado Henriques, onde o mesmo se disponibilizou para os primeiros testes da câmera de estacionamento inteligentes.
 
 
+Figura de estado Pode mover - Verde - Simboliza que está longe da câmera.
 
+Figura teste - cuidado - Amarelo -  melhor tomar cuidado ao chegar mais perto com o carro.
 
+Figura teste - Perigo - Vermelho - Melhor não chegar mais perto com o carro.
+Considerações finais
 
-
-
+Este projeto apresenta uma solução acessível de assistência ao estacionamento para veículos de baixa renda, utilizando uma câmera comum e algoritmos de visão computacional para detecção de proximidade em tempo real. Baseado no processamento de imagens com a biblioteca OpenCV, o sistema classifica automaticamente objetos em três níveis de proximidade (verde para distância segura, amarelo para distância moderada e vermelho para proximidade de risco), simulando as funcionalidades de sensores convencionais de estacionamento. A detecção de contornos é ajustada para priorizar objetos centralizados na imagem, replicando o campo de visão traseiro de um veículo e fornecendo uma experiência visual intuitiva que auxilia na segurança ao estacionar. Ao viabilizar uma alternativa de baixo custo que pode ser facilmente instalada, esta solução se destaca como uma inovação prática para motoristas que buscam maior segurança em manobras sem os altos custos dos sensores tradicionais. Embora tenha limitações como precisão em diferentes condições de iluminação e possibilidade de aprimoramento para a medição de distâncias mais precisas, o sistema atende ao objetivo principal de democratizar o acesso à tecnologia de assistência ao estacionamento para veículos populares.
 
 
 
@@ -211,6 +238,18 @@ https://tecnoblog.net/responde/o-que-e-sensor-cmos/
 https://canaltech.com.br/carros/toyota-corolla-fica-mais-equipado-em-2023-veja-o-que-muda-206493/
 
 https://canaltech.com.br/carros/toyota-safety-sense-conheca-o-pacote-de-seguranca-semiautonoma-do-corolla-206487/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
